@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #205486;;
+    max-width: 650px;
+    margin: 0 auto;
+}
+#main{
+    margin: 0 auto;
+}
+#logcontainer,#mainContainer{
+    margin-top: 57px;
+    margin-bottom: 50px;
+}
+#alert{
+    display: none;
+}
+.log-heading,.main-para,.text-muted{
+    color: #dfe213;
+}
+@media only screen and (max-width: 500px) {
+    video{
+        width: 265px !important;
+        height: 207px !important;
+    }
+  }
